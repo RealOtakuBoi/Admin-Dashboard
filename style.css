@@ -103,3 +103,30 @@ a:hover i{
     color: rgb(110,109,109);
     cursor: pointer;
 }
+
+.main-body{
+    display: flex;
+}
+
+.main-content{
+    position: relative;
+    width: 75%;
+}
+
+.cardbox{
+    width: 95%;
+    height: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    background: #fff;
+    position: relative;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: 0.3s;
+}
+
+.cardbox p{
+    margin: 10px 10px;
+    font-weight: bolder;
+}
